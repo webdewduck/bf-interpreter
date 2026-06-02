@@ -17,7 +17,6 @@ class Brainfuck:
                 case "<":
                     cell_index -= 1
                 case "+":
-                    #cells[cell_index] = (cells[cell_index] + 1) % 256
                     cells[cell_index] = clamp0_255_wraparound(cells[cell_index] + 1)
                 case "-":
                     cells[cell_index] = clamp0_255_wraparound(cells[cell_index] - 1)
