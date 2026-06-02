@@ -1,4 +1,4 @@
-# Brainfuck interpareter in Python
+# Brainfuck interpreter in Python
 
 ## Usage
 
